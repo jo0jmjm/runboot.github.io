@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
-<<<<<<< HEAD
 const nextConfig = {
   output: 'export',
+  basePath: '/runboot.github.io',
+  assetPrefix: '/runboot.github.io',
 };
-=======
-const nextConfig = {};
->>>>>>> origin/main
 
-export default nextConfig;
+module.exports = nextConfig;
